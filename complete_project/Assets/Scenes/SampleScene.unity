@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73173631}
   m_Layer: 0
-  m_Name: Cannibal Spawn Points
+  m_Name: Zombie Spawn Points
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1002,9 +1002,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boar_Prefab: {fileID: 1072096237257892, guid: 4818faff4c9eb4a2eaabfcb99b470fa1,
     type: 2}
-  cannibal_Prefab: {fileID: 1114185151283812, guid: 0817ca6f06a1b4ca2b928101a1a848f9,
+  zombie_Prefab: {fileID: 1693652383050604, guid: 7aa9ebd8d63da4f7da3db23be66da59a,
     type: 2}
-  cannibal_SpawnPoints:
+  zombie_SpawnPoints:
   - {fileID: 2018235267}
   - {fileID: 419533829}
   - {fileID: 2022071681}
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   - {fileID: 2072515840}
   - {fileID: 1151220667}
   - {fileID: 1185830958}
-  cannibal_Enemy_Count: 6
+  zombie_Enemy_Count: 6
   boar_Enemy_Count: 3
   wait_Before_Spawn_Enemies_Time: 20
 --- !u!1 &1415798548
